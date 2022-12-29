@@ -1,0 +1,145 @@
+{
+  "stations": {
+    "1": [
+      "Finch",
+      "North York Centre",
+      "Sheppard Yonge",
+      "York Mills",
+      "Lawrence",
+      "Eglinton",
+      "Davisville",
+      "St Clair",
+      "Summerhill",
+      "Rosedale",
+      "Bloor Yonge",
+      "Wellesley",
+      "College",
+      "Dundas",
+      "Queen",
+      "King",
+      "Union",
+      "St Andrew",
+      "Osgoode",
+      "St Patrick",
+      "Queens Park",
+      "Museum",
+      "St George",
+      "Spadina",
+      "Dupont",
+      "St Clair West",
+      "Eglinton West",
+      "Glencairn",
+      "Lawrence West",
+      "Yorkdale",
+      "Wilson",
+      "Sheppard West",
+      "Downsview Park",
+      "Finch West",
+      "York University",
+      "Pioneer Village",
+      "Highway 407",
+      "Vaughan"
+    ],
+    "2": [
+      "Kipling",
+      "Islington",
+      "Royal York",
+      "Old Mill",
+      "Jane",
+      "Runnymede",
+      "High Park",
+      "Keele",
+      "Dundas West",
+      "Lansdowne",
+      "Dufferin",
+      "Ossington",
+      "Christie",
+      "Bathurst",
+      "Spadina",
+      "St George",
+      "Bay",
+      "Bloor Yonge",
+      "Sherbourne",
+      "Castle Frank",
+      "Broadview",
+      "Chester",
+      "Pape",
+      "Donlands",
+      "Greenwood",
+      "Coxwell",
+      "Woodbine",
+      "Main Street",
+      "Victoria Park",
+      "Warden",
+      "Kennedy",
+      "Lawrence East",
+      "Ellesmere",
+      "Midland",
+      "Scarborough Centre",
+      "McCowan"
+    ],
+    "3": [
+      "Don Mills",
+      "Leslie",
+      "Bessarion",
+      "Bayview",
+      "Sheppard Yonge"
+    ]
+  },
+  "lines": [
+    {
+      "number": "1",
+      "name": "Line 1"
+    },
+    {
+      "number": "2",
+      "name": "Line 2"
+    },
+    {
+      "number": "3",
+      "name": "Line 3"
+    }
+  ],
+  "connections": [
+    [
+      {
+        "line": "2",
+        "station": "Spadina"
+      },
+      {
+        "line": "1",
+        "station": "Spadina"
+      }
+    ],
+    [
+      {
+        "line": "2",
+        "station": "St George"
+      },
+      {
+        "line": "1",
+        "station": "St George"
+      }
+    ],
+    [
+      {
+        "line": "2",
+        "station": "Bloor Yonge"
+      },
+      {
+        "line": "1",
+        "station": "Bloor Yonge"
+      }
+    ],
+    [
+      {
+        "line": "3",
+        "station": "Sheppard Yonge"
+      },
+      {
+        "line": "1",
+        "station": "Sheppard Yonge"
+      }
+    ]
+  ]
+}
